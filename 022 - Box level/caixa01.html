@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Acessando o DevTools do Chrome
+        Inspecionar => ... => desfixar -->
+    <!--É possivel pré-visualizar o estilo da pagina dentro do Devtools sem modificar o arquivo-->
+    <style>
+        /*  O valor auto serve para centralizar */
+
+        /*
+          ORDEM DAS SHORTHANDS
+            Sempre sentido horario
+
+            Top - Right - Bottom - Left
+        */
+        h1{/*Box level*/
+            background-color:brown;
+            height: 200px;
+            width: 200px;
+            border:solid;
+            border-width:10px;
+            padding:50px 20px 0px 20px ;
+            /*
+            padding-top
+            padding-right
+            padding-bottom
+            padding-left
+            */
+            border-color:orange yellow;
+            /*
+            com dois valores
+            Top e Bottom = primeiro valor
+            Right e left = segundo valor
+            */
+            margin:auto;
+        }
+
+        a{/*inline-level*/
+            color:green;
+            border:solid;
+            border-color: black;
+            margin: 10px 30px;
+        }
+        
+        /*
+        Para inverter basta utilizar
+        display: inline; em elementos block ou
+        display: block; em elementos inline
+        */
+    </style>
+    <title>Box level</title>
+</head>
+<body>
+    <h1>Exemplo de caixa box level</h1>
+    <p>Parágrafos são exemplos de box level, os <a href="#">links são exemplos de caixas inline-block</a></p>
+
+</body>
+</html>

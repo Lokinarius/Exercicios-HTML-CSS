@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Grouping Tags ou HTML Semantico</title>
+</head>
+<style>
+    header{
+        background-color: rgb(190, 241, 241);
+        text-align: center;
+    }
+
+    nav{
+        border: solid 5px;
+        padding: 5px;
+    }
+
+    a{
+        margin: 30px;
+    }
+
+    main{
+        background-color: aliceblue;
+    }
+
+    article{
+        background-color: rgb(185, 238, 220);
+    }
+
+    aside{
+        text-align: right;
+    }
+
+    footer{
+        background-color: rgb(174, 174, 231);
+        color: white;
+        text-align: center;
+    }
+</style>
+<body>
+    <header>
+        <!--Cabeçalho-->
+        <h1>SITE</h1>
+        <nav>
+            <!--Área de links-->
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+        </nav>
+    </header>
+    <main>
+        <!--Conteúdo principal-->
+        <section>
+            <h2>Notícia</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque pariatur laborum consequatur! Quo, ad harum corporis iusto explicabo a nemo, praesentium distinctio sit, ipsam maxime non neque! Aspernatur velit nobis ratione dolorum. Officiis nisi, tempora modi ut voluptatem praesentium? Magnam dolorem nisi hic, voluptate officiis laborum earum quia quibusdam facere.</p>
+            <!--Seção de conteúdos da página-->
+        </section>
+        <section>
+            <article>
+                <h3>Curiosidade</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem eum, maiores laudantium voluptatum, obcaecati eos accusantium nisi sit corporis harum consectetur libero animi illo sint fugiat assumenda ratione nam ex.</p>
+                <!--conteúdo independente-->
+                <aside>
+                    fonte: Lorem ipsum dolor sit amet.
+                    <!--Conteúdo periferico do artigo-->
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Alisa meu pelo</p>
+        <!--Rodapé-->
+    </footer>
+</body>
+</html>
