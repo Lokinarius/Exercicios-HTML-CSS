@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Grouping Tags ou HTML Semantico</title>
+</head>
+<style>
+    header{
+        background-color: rgb(183, 192, 192);
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    }
+
+    nav{
+        border: solid 3px;
+        padding: 7px;
+    }
+
+    a{
+        margin: 30px;
+        color: black;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    a:hover{
+        color: whitesmoke;
+    }
+
+    main{
+        background-color: rgb(162, 174, 185);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+    aside{
+        text-align: right;
+    }
+
+    footer{
+        background-color: rgb(45, 48, 47);
+        color: white;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .titulo{
+        background-color: rgb(110, 129, 129);
+        text-align: center;
+    }
+</style>
+<body>
+    <header>
+        <!--Cabeçalho-->
+        <h1>SITE</h1>
+        <nav>
+            <!--Área de links-->
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <!--Conteúdo principal-->
+        <section>
+            <!--Seção de conteúdos da página-->
+            <h2 class="titulo">Notícia</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque pariatur laborum consequatur! Quo, ad harum corporis iusto explicabo a nemo, praesentium distinctio sit, ipsam maxime non neque! Aspernatur velit nobis ratione dolorum. Officiis nisi, tempora modi ut voluptatem praesentium? Magnam dolorem nisi hic, voluptate officiis laborum earum quia quibusdam facere.</p>  
+        </section>
+        <section>
+            <article>
+                <!--conteúdo independente-->
+                <h3 class="titulo">Curiosidade</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem eum, maiores laudantium voluptatum, obcaecati eos accusantium nisi sit corporis harum consectetur libero animi illo sint fugiat assumenda ratione nam ex.</p>
+                <aside>
+                    <!--Conteúdo periferico do artigo-->
+                    fonte: Lorem ipsum dolor sit amet.
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <!--Rodapé-->
+        <p>desenvolvido durante o curso</p>
+    </footer>
+</body>
+</html>
