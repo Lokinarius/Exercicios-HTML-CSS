@@ -1,0 +1,29 @@
+
+:root{
+    --cor0:#ebdfc5;
+    --cor1:#e1d383;
+    --cor2:#dcb73d;
+    --cor3:#a87e2f;
+    --cor4:#5c3f1a;
+    --cor5:#3d2306;
+
+    --font-title: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    --font-body: 'Courier New', Courier, monospace;
+    --font-extra: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main{
+    background-color: var(--cor1) ;
+    padding: 20px;
+    border-radius: 10px;
+    /* utilizar min-width e max-width para melhorar responsividade do site
+    */
+    min-width:280px ;
+    max-width:800px;
+    margin:auto;
+}
+
+
+
+
+
