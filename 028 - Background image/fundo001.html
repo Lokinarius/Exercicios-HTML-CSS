@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens de fundo</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            border: 0;
+        }
+
+        body {
+            background-image: url('imagens/wallpaper005.jpg');
+        }
+
+        h1{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: lighter;
+            text-align: center;
+        }
+
+        div.quadrado{
+            display: inline-block;
+            border: 3px solid black;
+            border-radius: 15px;
+            background-color: aliceblue;
+            width: 25%;
+            height: 300px;
+        }
+
+        /*
+        background-color
+        background-image:linear-gradient
+        background-image: url
+        */
+
+        div#q1{
+            background-color: rgb(234, 189, 235);
+        }
+
+        div#q2{
+            background-image: linear-gradient(to bottom, violet,lightgreen);
+        }
+
+        div#q3{
+            background-image: url(imagens/pattern003.png);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Papel de parede</h1>
+    <div class="quadrado" id="q1"></div>
+    <div class="quadrado" id="q2"></div>
+    <div class="quadrado" id="q3"></div>
+</body>
+</html>
