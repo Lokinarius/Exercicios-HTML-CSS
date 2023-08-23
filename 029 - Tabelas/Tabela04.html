@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: auto;
+        }
+
+        table{
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 800px;
+        }
+
+        caption{
+            font-size:1.5em;
+        }
+
+        thead{
+            background-color: rgb(200, 178, 230);
+        }
+        
+        tbody >tr.Homens:nth-child(2n){
+            background-color: aliceblue;
+        }
+
+        tbody >tr.mulheres:nth-child(2n), #mulher{
+            background-color: rgb(250, 222, 227);
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <tr>
+                <th>Grupo</th>
+                <th>Nomes</th>
+                <th colspan="3">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="mulheres">
+                <th rowspan="3" id="mulher">Mulheres</th>
+                <td>Ana Luiza Santos</td>
+                <td>Wall-E</td>
+                <td>Amelie Poulain</td>
+                <td>FormiguinhaZ</td>
+            </tr>
+            <tr class="mulheres">
+                <td>Beatrice Mello</td>
+                <td>HER</td>
+                <td>500 days of summer</td>
+                <td>A garota Ideal</td>
+            </tr>
+            <tr class="mulheres">
+                <td>Cassandra Vitorino</td>
+                <td>Matrix</td>
+                <td>Tron</td>
+                <td>Star Wars</td>
+            </tr>
+            <tr class="Homens">
+                <th rowspan="3">Homens</th>
+                <td>Julio Schwarltz</td>
+                <td>Gladiador</td>
+                <td>Troia</td>
+                <td>300</td>
+            </tr>
+            <tr class="Homens">
+                <td>Pedro Golçaves</td>
+                <td>Blade Runner</td>
+                <td>Taxi Driver</td>
+                <td>Psicopata Americano</td>
+            </tr>
+            <tr class="Homens">
+                <td>Daniel Neri</td>
+                <td>Godfellas</td>
+                <td>Godfather</td>
+                <td>Scarface</td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+</html>
