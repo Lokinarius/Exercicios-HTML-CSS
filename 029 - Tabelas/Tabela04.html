@@ -44,14 +44,14 @@
         <caption>Filmes Favoritos</caption>
         <thead>
             <tr>
-                <th>Grupo</th>
-                <th>Nomes</th>
-                <th colspan="3">Filmes</th>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
             </tr>
         </thead>
         <tbody>
             <tr class="mulheres">
-                <th rowspan="3" id="mulher">Mulheres</th>
+                <th rowspan="3" id="mulher" scope="rowgroup">Mulheres</th>
                 <td>Ana Luiza Santos</td>
                 <td>Wall-E</td>
                 <td>Amelie Poulain</td>
@@ -70,7 +70,7 @@
                 <td>Star Wars</td>
             </tr>
             <tr class="Homens">
-                <th rowspan="3">Homens</th>
+                <th rowspan="3" scope="rowgroup">Homens</th>
                 <td>Julio Schwarltz</td>
                 <td>Gladiador</td>
                 <td>Troia</td>
