@@ -9,6 +9,7 @@
     <h1>Exemplo de Formulário</h1>
     <form action="cadastro.php" method="get" autocomplete="on">
         <fieldset>
+            <h3>Calculadora simples</h3>
             <p>
                 <label for="i1">Número 1</label>
                 <input type="number" name="1" id="i1" min="0" max="99" required oninput="isoma.innerHTML = Number(i1.value) + Number(i2.value)">
@@ -24,6 +25,7 @@
             </p>
         </fieldset>
         <p>
+            <h3>Range</h3>
             <label for="inum">Numero</label>
             <input type="range" id="inum" min="0" max="10" value="5"
             oninput="ival.innerHTML = Number(inum.value)">
@@ -31,6 +33,7 @@
         </p>
         <fieldset>
             <p>
+                
                 <label for="iano">Em que ano você nasceu?</label>
                 <input type="number" id="iano" min="1900" max="2023" oninput="calcAge()">
             </p>
