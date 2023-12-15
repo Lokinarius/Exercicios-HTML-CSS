@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: bolder;
+}
+
+.Flex-container{
+    display: flex;
+    /*
+    "display: flex;" configura por padrão essas propriedades:
+    [flex-direction: row;]
+    [justify-content: flex-start;]
+    [align-items:stretch;]
+    */
+    flex-direction: row;
+    /*
+    Eixos do "flex-direction"
+    [flex-direction:row;]
+    [flex-direction:row-reverse;]
+    [flex-direction:column;]
+    [flex-direction:column-reverse;]
+    */
+    justify-content: center;
+    /*
+    Formas de distribuição do conteúdo:
+    [justify-content:flex-start;]
+    [justify-content:flex-end;]
+    [justify-content:center;]
+    [justify-content:space-around;]
+    [justify-content:space-evenly;]
+    [justify-content:space-between;]
+    */
+    align-items: center;
+    flex-wrap: wrap;
+    background: black;
+    height: 500px;
+}
+
+.flex-item{
+    width: 100px;
+    height: 100px;
+    background: gray;
+    margin: 10px;
+}
+
+.flex-item:nth-child(3){
+    font-size: 40px;
+}
