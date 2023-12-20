@@ -9,19 +9,22 @@ body{
 
 .label{
     background-color: lightblue;
+    text-shadow: 2px 4px 3px gray;
     padding-top: 50px;
     margin: 0%;
     height: 20vh;
-    width: 100%;
+    width: 80vw;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
+    color:black;
+    border-radius: 20px 20px 0 0;
 }
 
 div.grid{
     position: relative;
     background-image: url(imagens/tumblr_e1a28b990af69843629cb68b5948daa2_77a85d1a_1280.jpg);
     height: 400px;
-    width: 100vw;
+    width: 80vw;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -33,8 +36,32 @@ div.grid{
 
 
 .label2{
-    background-color: aliceblue;
+    background-color: lightblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-shadow: 2px 4px 3px gray;
+    color: white;
     margin: 0%;
-    width: 100%;
+    width: 80vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#party1{
+    display: flex;
+    align-items: flex-end;
+    margin-top: auto;
+}
+
+#party2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#party3{
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
