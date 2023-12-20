@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+img{
+    height: fit-content;
+    width: fit-content;
+}
+
+.label{
+    background-color: lightblue;
+    text-shadow: 2px 4px 3px gray;
+    padding-top: 50px;
+    margin: 0%;
+    height: 20vh;
+    width: 90vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color:black;
+    border-radius: 20px 20px 0 0;
+}
+
+div.grid{
+
+    background-image: url(imagens/tumblr_e1a28b990af69843629cb68b5948daa2_77a85d1a_1280.jpg);
+    height: 500px;
+    width: 90vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+}
+ 
+
+
+.label2{
+    background-color: lightblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-shadow: 2px 4px 3px gray;
+    color: white;
+    margin: 0%;
+    width: 90vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.party1{
+    display:flex;
+}
+#soldado1{
+    order:2;
+}
+#ladino1{
+    order:3;
+}
+
+.party2{
+    display:flex;
+}
+
+#maga2{
+    align-self: center;
+    margin-top: 200px;
+}
+
+.party3{
+    display:flex;
+}
+#soldado3{
+    order:2;
+}
+#maga3{
+    order: 3;
+}
+#ladino3{
+    order:1;
+    align-self: flex-end;
+    margin-top: 350px;
+}
